@@ -576,11 +576,6 @@ button:focus {
   color: white;
 }
 
-.new-icons {
-  transform: scale(0.6);
-}
-
-
 .tech-icons-text {
   display: flex;
   align-items: center;
