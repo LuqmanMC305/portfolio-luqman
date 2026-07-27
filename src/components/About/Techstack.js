@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
+import { FaPlaceOfWorship, FaRust } from "react-icons/fa";
 import Go from "../../Assets/TechIcons/go.svg";
 import C from "../../Assets/TechIcons/C++.svg";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
@@ -26,6 +26,10 @@ import AWS from "../../Assets/TechIcons/AWS.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
 import HTML from "../../Assets/TechIcons/HTML5.svg";
 import CSS from "../../Assets/TechIcons/CSS.svg";
+import PHP from "../../Assets/TechIcons/PHP.svg";
+import Spring from "../../Assets/TechIcons/Spring.svg";
+import Flutter from "../../Assets/TechIcons/Flutter.svg";
+
 
 
 function Techstack() {
@@ -48,12 +52,8 @@ function Techstack() {
         <div className="tech-icons-text">HTML</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Typescript} alt="typescript" />
+        <img src={CSS} alt="typescript" className="new-icons"/>
         <div className="tech-icons-text">CSS</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Go} alt="flutter" />
-        <div className="tech-icons-text">Flutter</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
@@ -64,11 +64,11 @@ function Techstack() {
         <div className="tech-icons-text">React.Js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity fontSize={"24px"} />
+        <img src={FaPlaceOfWorship} alt="php" className="new-icons"/>
         <div className="tech-icons-text">PHP</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Mongo} alt="mongoDb" />
+        <img src={Spring} alt="mongoDb" className="new-icons"/>
         <div className="tech-icons-text">Spring Boot</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -145,7 +145,7 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Kafka} alt="Kafka" className="tech-icon-images" />
+        <img src={Kafka} alt="Chart.Js" className="tech-icon-images" />
         <div className="tech-icons-text">Chart.Js</div>
       </Col>
     </Row>
