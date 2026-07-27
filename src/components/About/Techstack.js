@@ -24,6 +24,9 @@ import MUI from "../../Assets/TechIcons/MUI.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import AWS from "../../Assets/TechIcons/AWS.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
+import HTML from "../../Assets/TechIcons/HTML5.svg";
+import CSS from "../../Assets/TechIcons/CSS.svg";
+
 
 function Techstack() {
   return (
@@ -38,11 +41,19 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <div className="tech-icons-text">Typescript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Go} alt="go" />
-        <div className="tech-icons-text">Go</div>
+        <img src={HTML} alt="typescript" className="new-icons"/>
+        <div className="tech-icons-text">HTML</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Typescript} alt="typescript" />
+        <div className="tech-icons-text">CSS</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Go} alt="flutter" />
+        <div className="tech-icons-text">Flutter</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
@@ -54,15 +65,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity fontSize={"24px"} />
-        <div className="tech-icons-text">Solidity</div>
+        <div className="tech-icons-text">PHP</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Mongo} alt="mongoDb" />
-        <div className="tech-icons-text">Mongo DB</div>
+        <div className="tech-icons-text">Spring Boot</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Redux} alt="redux" />
-        <div className="tech-icons-text">Redux</div>
+        <div className="tech-icons-text">Laravel</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -79,7 +90,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Redis} alt="redis" />
-        <div className="tech-icons-text">Redis</div>
+        <div className="tech-icons-text">Svelte</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Docker} alt="docker" />
@@ -87,7 +98,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Kubernates} alt="kubernetes" />
-        <div className="tech-icons-text">Kubernetes</div>
+        <div className="tech-icons-text">SQLite</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -105,7 +116,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={HaskellIcon} alt="haskell" />
-        <div className="tech-icons-text">Haskell</div>
+        <div className="tech-icons-text">Tableau</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -125,7 +136,7 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <FaRust fontSize={"24px"} />
-        <div className="tech-icons-text">Rust</div>
+        <div className="tech-icons-text">Vite</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -135,7 +146,7 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Kafka} alt="Kafka" className="tech-icon-images" />
-        <div className="tech-icons-text">Kafka</div>
+        <div className="tech-icons-text">Chart.Js</div>
       </Col>
     </Row>
   );

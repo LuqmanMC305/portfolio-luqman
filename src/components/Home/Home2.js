@@ -13,38 +13,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I'm a final year Software Engineering undergraduate student at <b className="purple">Universiti Sains Malaysia (USM) </b>
+              with an interest in developing applications, and also solving problems.
+              <br/>
+              <br/>
+              My interests include <b className="purple">full-stack web development, AI applications, and embedded systems. </b> 
+              I enjoy learning a lot of things such as cutting-edge technologies, linguistics, algorithms, 
+              geography, meteorology, geology, history, political science, astronomy, and more! 
+              Therefore, my intellectual interests are extremely wide!
               <br />
               <br />
-              I’m proficient in
+              My main programming languages are
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript/TypeScript, C++, PHP, and Java,{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
-              <i>
+              and I occasionally use languages like for specific projects related to AI or Embedded Systems, such as
                 <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                    {" "}
+                    Python, and C.{" "}
                 </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+                
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I also dabble in <b className="purple">Competitive Programming, Embedded Systems, and GIS </b>
+              to reinforce and diversity my technical skills.
+              <br />
+              <br />
+              I usually use
+              <b className="purple"> Laravel, Next.Js or Spring Boot </b> as my frameworks to develop web applications.{" "}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
