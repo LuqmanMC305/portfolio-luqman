@@ -11,6 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import monitus from "../../Assets/Projects/monitus.png";
 import usmmarketplace4u from "../../Assets/Projects/usmmarketplace4u.png";
 import campusconnect from "../../Assets/Projects/campusconnect.png";
+import anprsmartparking from "../../Assets/Projects/anpr-smartparking.png"
 
 
 
@@ -61,12 +62,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={anprsmartparking}
               isBlog={false}
               title="ANPR Smart Parking System"
-              description="AI-powered parking management system using YOLOv8 and OCR for real-time licence plate recognition. Includes payment dashboard and Flask API. Achieved Technology Readiness Level (TRL) 4 during university startup accelerator testing."
+              description="AI-powered parking management system using YOLOv8 and OCR for real-time licence plate recognition. Includes payment dashboard and Flask API. Achieved Technology Readiness Level (TRL) 4 during university startup accelerator testing. This project was a collaboration with the NexT Seed Group."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              //demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
