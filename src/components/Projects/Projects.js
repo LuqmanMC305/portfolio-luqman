@@ -90,7 +90,9 @@ function Projects() {
               title="My Portfolio Website"
               description="The designed is based on soumyajit4419. The original work can be found on https://github.com/soumyajit4419/Portfolio"
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              originalLink = "https://github.com/soumyajit4419/Portfolio"
+              //demoLink="https://blogs.soumya-jit.tech/"      
+              
             />
           </Col>
         </Row>
