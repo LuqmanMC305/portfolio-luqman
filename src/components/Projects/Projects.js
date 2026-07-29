@@ -11,7 +11,8 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import monitus from "../../Assets/Projects/monitus.png";
 import usmmarketplace4u from "../../Assets/Projects/usmmarketplace4u.png";
 import campusconnect from "../../Assets/Projects/campusconnect.png";
-import anprsmartparking from "../../Assets/Projects/anpr-smartparking.png"
+import anprsmartparking from "../../Assets/Projects/anpr-smartparking.png";
+import hangman from "../../Assets/Projects/hangman.png";
 
 
 
@@ -73,7 +74,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={hangman}
               isBlog={false}
               title="Hangman Game"
               description="A text-based hangman game coded in C++."
