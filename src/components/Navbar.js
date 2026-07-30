@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo-new.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { CgGitFork, CgAwards } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
@@ -94,11 +94,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/award"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <CgAwards style={{ marginBottom: "2px" }} /> Awards
               </Nav.Link>
             </Nav.Item>
 

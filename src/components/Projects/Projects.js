@@ -89,7 +89,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="My Portfolio Website"
-              description="The designed is forked and based on soumyajit4419. The original work can be found on the right button below."
+              description="The designed is forked and based on soumyajit4419's Portfolio Website. The original work can be found on the right button below."
               ghLink="https://github.com/LuqmanMC305/portfolio-luqman"
               originalLink = "https://github.com/soumyajit4419/Portfolio"
               //demoLink="https://blogs.soumya-jit.tech/"      
