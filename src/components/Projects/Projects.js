@@ -13,6 +13,7 @@ import usmmarketplace4u from "../../Assets/Projects/usmmarketplace4u.png";
 import campusconnect from "../../Assets/Projects/campusconnect.png";
 import anprsmartparking from "../../Assets/Projects/anpr-smartparking.png";
 import hangman from "../../Assets/Projects/hangman.png";
+import portfolio from "../../Assets/Projects/portfolio.png"
 
 
 
@@ -85,11 +86,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={portfolio}
               isBlog={false}
               title="My Portfolio Website"
-              description="The designed is based on soumyajit4419. The original work can be found on https://github.com/soumyajit4419/Portfolio"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="The designed is forked and based on soumyajit4419. The original work can be found on the right button below."
+              ghLink="https://github.com/LuqmanMC305/portfolio-luqman"
               originalLink = "https://github.com/soumyajit4419/Portfolio"
               //demoLink="https://blogs.soumya-jit.tech/"      
               
