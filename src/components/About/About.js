@@ -27,6 +27,10 @@ function About() {
                 Who <strong className="purple">Am I?</strong>
               </h1>
               <Aboutcard />
+
+               <h1 style={{ fontSize: "2.1em", paddingBottom: "40px", paddingTop: "40px"}}>
+                Working <strong className="purple">Experiences</strong>
+              </h1>
             </Col>
             <Col
               md={5}
