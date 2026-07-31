@@ -6,6 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import WorkingExperience from "./WorkingExperience";
+
 
 function About() {
   return (
@@ -30,6 +32,7 @@ function About() {
 
                <h1 style={{ fontSize: "2.1em", paddingBottom: "40px", paddingTop: "40px"}}>
                 Working <strong className="purple">Experiences</strong>
+                 <WorkingExperience />
               </h1>
             </Col>
             <Col
