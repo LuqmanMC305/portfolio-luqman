@@ -599,6 +599,7 @@ button:focus {
   line-height: 1.6 !important;
 }
 
+
 .quote-card-view {
   border: none !important;
   color: white !important;
@@ -758,4 +759,37 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.timeline-card {
+    position: relative;   /* Needed for the absolute-positioned logo */
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.experience-card {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.company-logo{
+  position: flexbox;
+  top: 20px;
+  left: 20px;
+  margin: 20px;
+
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+
 }

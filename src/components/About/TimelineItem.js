@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 
 function TimelineItem({
+    logo,
     period,
     title,
     company, 
@@ -17,6 +18,15 @@ function TimelineItem({
           <div className="timeline-period">
             {period}
           </div>
+
+          {/* Company logo */}
+            {logo && (
+                <img
+                src={logo}
+                alt={`${company} logo`}
+                className="company-logo"
+                />
+            )}
 
           <Card.Title>{title}</Card.Title>
 
