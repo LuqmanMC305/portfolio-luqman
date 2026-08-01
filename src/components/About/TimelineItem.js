@@ -28,13 +28,13 @@ function TimelineItem({
                 />
             )}
 
-          <Card.Title>{title}</Card.Title>
+          <Card.Title className="card-title-company">{title}</Card.Title>
 
-          <Card.Subtitle className="mb-3 text-muted">
+          <Card.Subtitle className="card-company">
             {company}
           </Card.Subtitle>
 
-          <Card.Text>
+          <Card.Text className="card-text-desc">
             {description}
           </Card.Text>
 

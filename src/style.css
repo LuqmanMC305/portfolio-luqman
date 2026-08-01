@@ -768,9 +768,15 @@ button:focus {
     
 }
 
+.timeline-period {
+    font-weight: bold;
+    color: white;
+    
+}
+
 .timeline-card {
     position: relative;   /* Needed for the absolute-positioned logo */
-    background: transparent;
+    background: transparent !important;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: none;
     border-radius: 10px;
@@ -780,6 +786,20 @@ button:focus {
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
+}
+
+.card-text-desc{
+  color: white;
+  margin-top: 0.75rem;
+}
+
+.card-title-company{
+  color: #cd5ff8 !important;
+}
+
+.card-company{
+  color: rgb(155 126 172) !important;
+  font-weight: bold !important;
 }
 
 .company-logo{
