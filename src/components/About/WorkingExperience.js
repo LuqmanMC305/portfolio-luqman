@@ -12,7 +12,7 @@ function WorkingExperience() {
         <blockquote className="blockquote mb-0 mt-2">
           <div className="timeline">
             <TimelineItem
-              logo = {veecotechlogo}
+              logo= {veecotechlogo}
               period="Mar 2025 - Sep 2025"
               title="Software Developer Internship"
               company="VeecoTech Solutions Sdn. Bhd."

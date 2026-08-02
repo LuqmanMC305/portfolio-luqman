@@ -1,57 +1,43 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import { Container} from "react-bootstrap";
+import AwardItem from "./AwardItem";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera.pdf";
-import resumepdf from "../../Assets/Resume-Luqman-July-2026.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import Card from "react-bootstrap/Card";
 
-function ResumeNew() {
-  const [width, setWidth] = useState(1200);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+function Awards() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
-        <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={resumepdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-        </Row>
+      <Particle />
+        <Container fluid className="award-section">
+          <h1>Awards and <strong className="purple">Honours</strong></h1>
+          <Card.Body>
+            <div className="award-content">
+              <AwardItem
+                title="Dean's List Award"
+                subtitle="For X Semesters"
+              />
 
-        <Row className="resume">
-          <Document file={resumepdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
+                <AwardItem
+                title="Dean's List Award"
+                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+              />
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={resumepdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-        </Row>
-      </Container>
+              <AwardItem
+                title="Dean's List Award"
+                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+              />
+
+              <AwardItem
+                title="Dean's List Award"
+                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+              />
+              
+            </div>
+          </Card.Body>
+        </Container>
     </div>
   );
 }
 
-export default ResumeNew;
+export default Awards;
