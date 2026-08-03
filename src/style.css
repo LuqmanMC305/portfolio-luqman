@@ -824,6 +824,7 @@ button:focus {
 
 .award-title{
   color: #cd5ff8 !important;
+  font-weight: bold !important;
 }
 
 .award-header {
@@ -843,6 +844,13 @@ button:focus {
   padding-bottom: 30px !important;
   color: white !important;
 
+}
+
+.award-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
 }
 
 
