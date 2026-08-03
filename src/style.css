@@ -789,8 +789,7 @@ button:focus {
 }
 
 .card-text-desc{
-  color: white;
-  margin-top: 0.75rem;
+  color: white; 
 }
 
 .card-title-company{
