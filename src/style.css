@@ -795,6 +795,7 @@ button:focus {
 
 .card-title-company{
   color: #cd5ff8 !important;
+  font-weight: bold !important;
 }
 
 .card-company{
