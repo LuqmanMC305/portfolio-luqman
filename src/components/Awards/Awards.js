@@ -14,23 +14,23 @@ function Awards() {
           <Card.Body>
             <div className="award-content">
               <AwardItem
-                title="Dean's List Award"
-                subtitle="For X Semesters"
+                title="Runner Up & The Most Robust Design Awards (State Level) "
+                subtitle="Boulder Fence Model Design Competition Engineering Week 2019"
               />
 
                 <AwardItem
-                title="Dean's List Award"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                title="AKPK Club Excellence in Financial Literacy"
+                subtitle="AKPK Collaborators’ Awards 2023/24"
+              />
+
+              <AwardItem
+                title="Runner-Up"
+                subtitle="Runner Up in the Penang State Consumer Movement Awards"
               />
 
               <AwardItem
                 title="Dean's List Award"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-              />
-
-              <AwardItem
-                title="Dean's List Award"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                subtitle="For 5 Semesters"
               />
               
             </div>
