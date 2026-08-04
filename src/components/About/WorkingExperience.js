@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 import abnlogo from "../../Assets/Organisations/abn_logo.jpg";
 import veecotechlogo from "../../Assets/Organisations/veecotech_logo.jpg";
 import TimelineItem from "./TimelineItem";
-import { ImPointRight } from "react-icons/im";
 
 function WorkingExperience() {
   return (
