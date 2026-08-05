@@ -815,10 +815,10 @@ button:focus {
 }
 
 .award-icon {
-    font-size: 28px;
+    font-size: clamp(20px, 5vw, 40px) !important;
     margin-right: 15px;
     color: white;
-    margin-bottom: 10px;
+    flex-shrink: 0;
 }
 
 .award-title{
@@ -828,9 +828,9 @@ button:focus {
 
 .award-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center; 
-    gap: 10px;
+    gap: 12px;
 }
 
 .award-content{
